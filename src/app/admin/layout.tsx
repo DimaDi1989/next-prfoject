@@ -1,4 +1,10 @@
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Admin page",
+  description: "Admin page and page user",
+};
 
 const layout = ({
   children,

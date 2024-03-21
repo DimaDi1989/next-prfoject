@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 import { NavigationMenu as NavArray } from "@/Store/LocalStore/store";
 const NavigationMenu = () => {
   const renderMenu = () => {
@@ -16,7 +17,7 @@ const NavigationMenu = () => {
     );
   };
 
-  return <div>{renderMenu()}</div>;
+  return <>{renderMenu()}</>;
 };
 
 export default NavigationMenu;
