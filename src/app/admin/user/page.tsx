@@ -1,8 +1,13 @@
 import React from "react";
-import { Xanh_Mono } from "next/font/google";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Users page",
+  description: "Admin page and page user",
+};
 
 const UserPage = () => {
-  return <div>page for all users</div>;
+  return <div>Страница пользователя</div>;
 };
 
 export default UserPage;
